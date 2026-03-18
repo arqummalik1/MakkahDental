@@ -1,24 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Backend integration (Supabase + production setup): [BACKEND_SETUP_GUIDE.md](file:///Users/arqummalik/Software%20Development/vibe%20code/MakkaDental/docs/BACKEND_SETUP_GUIDE.md)
+- Architecture overview: [ARCHITECTURE.md](file:///Users/arqummalik/Software%20Development/vibe%20code/MakkaDental/docs/ARCHITECTURE.md)
+- Quality process: [QUALITY_PROCESS.md](file:///Users/arqummalik/Software%20Development/vibe%20code/MakkaDental/docs/QUALITY_PROCESS.md)
+- Mock → Supabase migration notes: [MIGRATION_SUPABASE.md](file:///Users/arqummalik/Software%20Development/vibe%20code/MakkaDental/docs/MIGRATION_SUPABASE.md)
+
+## Scripts
+
+```bash
+npm run lint
+npm run typecheck
+npm run test
+npm run test:e2e
+npm run build
+npm run storybook
+```
 
 ## Learn More
 
